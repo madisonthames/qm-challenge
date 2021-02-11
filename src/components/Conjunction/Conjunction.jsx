@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import FontAwesome from 'react-fontawesome';
-import Select from '../Select/Select';
+import React from 'react';
 import './conjunction.scss';
 
 const Conjunction = (props) => {
