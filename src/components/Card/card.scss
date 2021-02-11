@@ -1,0 +1,53 @@
+$dark-grey: #647487;
+$medium-grey: #A8B5C7;
+$light-grey: #E8ECF1;
+$white: #ffffff;
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  background-color: $white;
+  color: $dark-grey;
+  border: $medium-grey 1px solid;
+  padding: 20px;
+  border-radius: 5px;
+
+  &:not(:first-child) {
+    animation: .5s  both fade-in-slide-left;
+
+    @keyframes fade-in-slide-left {
+      0% {
+        opacity: 0;
+        transform: translateX(60px);
+      }
+      
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+
+  &--delete {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+
+    .fa {
+      font-size: 20px;
+    }
+  }
+
+  &--select_wrapper {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  &--between {
+    display: flex;
+  }
+}

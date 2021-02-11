@@ -1,0 +1,45 @@
+.search_builder {
+  margin: 80px 200px;
+  color: #192F3F;
+  font-size: 20px;
+  font-weight: bold;
+
+  &--header {
+    margin-bottom: 15px;
+  }
+
+  &--cards {
+    margin-bottom: 20px;
+    border-bottom: #E8ECF1  2px solid;
+  }
+
+  &--buttons {
+    padding: 10px 20px;
+    background-color: #22A7F0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+    &.new_card {
+      margin-bottom: 70px;
+    }
+
+    &.reset {
+      background-color: #A8B5C7;
+      margin-left: 30px;
+    }
+  }
+
+  &--search {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &--search_icon {
+    margin-right: 10px;
+  }
+}
+

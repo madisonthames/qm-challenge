@@ -1,0 +1,14 @@
+$medium-grey: #A8B5C7;
+$light-grey: #E0E6ED;
+
+.conjunction {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  background-color: $light-grey;
+  height: 38px;
+  padding: 0 10px;
+  margin: 0 5px;
+  border: $medium-grey 1px solid;
+  border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+$dark-grey: #647487;
+$light-grey: #E8ECF1;
+$white: #ffffff;
+
+.sql {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  padding: 20px;
+  border: $light-grey 2px solid;
+  border-radius: 5px;
+  background-color: $white;
+  color: $dark-grey;
+  font-size: 14px;
+  font-style: italic;
+}
